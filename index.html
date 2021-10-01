@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SuperTrunfo Países</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <main>
+    <div class="container">
+      <h1 class="page-title">SuperTrunfo Países</h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt=""><br>
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+      <form id="form">
+        <h2 class="page-subtitle" style="display:none"></h2>
+        <div class="wrapper">
+          <div id="carta-jogador" style="display:none"></div>
+          <div id="carta-maquina" style="display:none"></div>
+        </div>
+        <div class="button">
+          <br><br><button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          <button type="button" onclick="reiniciar()" id="btnReiniciar">Reiniciar</button><br>
+          <p id="opcao-invalida"></p>
+        </div>
+        <br>
+        <p id="resultado"></p>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Anne Reginatto</p>
+    <a href="https://www.linkedin.com/in/anne-reginatto/" target="_blank"><img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
+      <a href="https://github.com/annereginatto" target="_blank"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></a>
+      <a href="https://discordapp.com/users/885167937298763807/" target="_blank"><img class="discord" src="https://cdn.worldvectorlogo.com/logos/discord-6.svg"></a>
+      <a href="https://codepen.io/annereginatto" target="_blank"><img class="codepen" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"></a>
+      <a href="malito:annereginatto@gmail.com" target="_blank"><img class="gmail" src="https://cdn.worldvectorlogo.com/logos/official-gmail-icon-2020-.svg"></a>
+    <br><br><br>
+  </footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

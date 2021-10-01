@@ -373,10 +373,13 @@ footer {
   padding: 5px;
 }
 
+<<<<<<< HEAD
 footer p {
   margin-bottom: 5px;
 }
 
+=======
+>>>>>>> 2fc103dd29de5925d930a1793897249ee3c8373d
 footer p:hover {
   transform: scale(1.1);
   transition-duration: 0.5s;
@@ -387,6 +390,7 @@ footer p:hover {
   padding: 5px;
 }
 
+<<<<<<< HEAD
 .linkedin, .github {
   width: 30px;
 }
@@ -403,6 +407,19 @@ footer p:hover {
 footer img {
   padding-left: 14px;
   padding-right: 14px;
+=======
+.linkedin, .github, .codepen {
+  width: 30px;
+}
+
+.gmail, .discord {
+  width: 35px;
+}
+
+footer img {
+  padding-left: 8px;
+  padding-right: 8px;
+>>>>>>> 2fc103dd29de5925d930a1793897249ee3c8373d
 }
 
 footer img:hover {

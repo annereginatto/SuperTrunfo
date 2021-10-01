@@ -383,12 +383,12 @@ footer p:hover {
   padding: 5px;
 }
 
-.linkedin, .github, .discord, .codepen {
-  width: 35px;
+.linkedin, .github, .codepen {
+  width: 30px;
 }
 
-.gmail {
-  width: 45px;
+.gmail, .discord {
+  width: 35px;
 }
 
 footer img {
